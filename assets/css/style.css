@@ -11,8 +11,8 @@ body {
 h1 {
 	display: inline-block;
 	background: #4aaaa5; 
-	padding: 30px 35px;
-	font-size: 40px; 
+	padding: 40px 45px;
+	font-size: 60px; 
 	color: white; 	
 }
 
@@ -20,24 +20,21 @@ h2 {
 	margin-bottom: 35px;
 	border-bottom: 3px solid #dddddd; 
 	padding:10px 0 30px 0;
-	font-size: 32px; 
+	font-size: 50px; 
 	color: #4aaaa5; 
 }
 
 h3 {
 	display: inline-block;
-	padding: 12px 0;
-	position: absolute;
 	width: 100%;
 	text-align: center;
 	background: #4aaaa5;
 	color: #fff;
-	bottom: 13px;
-	font-size: 22px;
+	font-size: 25px;
+	margin: 5px;
 }
 
 #mainnav{
-	width: 960px; 
 	margin: 0 auto;
 	width: 100%;
 	background-color: #fff;
@@ -71,16 +68,6 @@ nav ul li a:hover {
 
 #profile {
 	float: left; 
-	margin: 39px -5px 35px -33px;
-	max-width: 250px;
-}
-
-#buttons {
-	float: right;
-	background: #fff;
-	width: 270px;
-	border: 1px solid #dddddd;
-	padding: 30px;
 }
 
 #mainbody {
@@ -92,7 +79,25 @@ nav ul li a:hover {
 	padding: 30px;
 }
 
+#buttons {
+	float: right;
+	background: #fff;
+	width: 270px;
+	border: 1px solid #dddddd;
+	padding: 30px;
+	display: inline-block;
+}
 
+#mainsection {
+	width: 270px;
+}
+
+input[type="submit"] {
+	background: #4aaaa5;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	padding: 10px 20px;
 
 
 footer {
