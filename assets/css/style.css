@@ -1,3 +1,6 @@
+/** {
+  box-sizing: border-box;
+}*/
 
 body {
 	background-image: url(../images/brushed_alu_@2x.png);
@@ -133,6 +136,8 @@ footer {
 	color: #acaaa6;
 	background-color: #666666;
 	text-align: center;
-	margin-top: 30px;
 	border-top: 10px solid #4aaaa5;
+	font-size: 10px;
+	height: 90px;
+	padding-top: 30px;
 }
