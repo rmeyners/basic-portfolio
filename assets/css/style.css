@@ -15,7 +15,7 @@ header {
   	margin-bottom: 34px;
 }
 
-h1,h2,h3{
+h1,h2,h3,h4{
 	font-family: "Georgia", Times New Roman, serif;
 }
 
@@ -65,8 +65,8 @@ h3.sidebar {
 	width: 650px;
 	border: 1px solid #dddddd;
 	padding: 25px;
-	margin-bottom: 50px;
-	height: 850px;
+	margin-bottom: 100px;
+	/*height: 850px;*/
 }
 
 #right {
@@ -178,7 +178,7 @@ li.rps {
 	background-image: url(../images/rps.jpg);
 }
 
-h3.box-ribbon {
+h4.box-ribbon {
 	display: inline-block;
 	padding: 12px 0;
 	position: absolute;
