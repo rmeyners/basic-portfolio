@@ -1,6 +1,6 @@
-/** {
+* {
   box-sizing: border-box;
-}*/
+}
 
 body {
 	background-image: url(../images/brushed_alu_@2x.png);
@@ -10,8 +10,9 @@ body {
 
 header {
 	background-color: #ffffff;
-	border: 5px solid #dddddd;
+	border-bottom: 2px solid #dddddd;
   	border-color: #cccccc;
+  	margin-bottom: 34px;
 }
 
 h1,h2,h3{
@@ -20,7 +21,7 @@ h1,h2,h3{
 
 h1.hero {
 	display: inline-block;
-	padding: 20px 25px;
+	padding: 30px 35px;
 	background: #4aaaa5;
 	font-size: 30px;
 	color: white;
@@ -47,9 +48,8 @@ h3.sidebar {
 
 .main{
 	width: 960px;
-	margin-bottom: 35px;
-	margin-left: 125px;
 	line-height: 25px;
+	margin: 0 auto;
 }
 
 .profilepic {
@@ -65,24 +65,29 @@ h3.sidebar {
 	width: 650px;
 	border: 1px solid #dddddd;
 	padding: 25px;
+	margin-bottom: 50px;
+	height: 850px;
 }
 
 #right {
-	float: right;
+	float: left;
 	background: #ffffff;
 	width: 270px;
 	border: 1px solid #dddddd;
 	padding: 25px;
-	margin-right: 125px;
+	margin-left: 75px;
 }
 
 nav {
 	float: right;
+	margin-left: 25px;
 }
 
 nav ul li{
 	display: inline-block;
-	padding: 17px;
+	padding: 15px;
+	border-right: 1px solid #cccccc;
+	line-height: 5px;
 }
 
 nav ul li a {
@@ -101,7 +106,7 @@ ul.buttons li.btn {
 }
 
 ul.buttons li.btn img {
-	max-width: 75px;
+	max-width: 50px;
 	margin-right: 10px;
 }
 
@@ -109,16 +114,29 @@ form {
 	font-family: "Arial", "Helvetica Neue", sans-serif;
 }
 
-input[type=text] {
-	width: 100%
-	padding: 15px;
-	border: 1px solid: #dddddd;
-	box-sizing: border-box;
-	margin: 5px 0px 15px 0px;
+label {
+	display: block;
+	font-size: 18px;
+}
+
+input[type="text"], input[type="email"] {
+	width: 100%;
+	height: 30px;
+	margin-top: 4px;
+	margin-bottom: 10px;
+	border: 1px solid #dddddd;
+	padding: 5px 10px;
+	font-size: 15px;
 }
 
 textarea {
-	width: 100%
+	width: 100%;
+	height: 149px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #dddddd;
+	padding: 5px 10px;
+	font-size: 15px;
 }
 
 input[type="submit"] {
@@ -127,6 +145,49 @@ input[type="submit"] {
 	font-size: 20px;
 	border: none;
 	padding: 10px 20px;
+}
+
+li.project-box {
+	display: inline-block;
+	width: 255px;
+	height: 175px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 40px;
+	margin-right: 40px;
+}
+
+li.hangman {
+	background-image: url(../images/hangman.jpg);
+}
+
+li.rpg {
+	background-image: url(../images/rpg.jpg);
+}
+
+li.trivia {
+	background-image: url(../images/trivia.jpg);
+}
+
+li.ucsd {
+	background-image: url(../images/ucsd.jpg);
+}
+
+li.rps {
+	background-image: url(../images/rps.jpg);
+}
+
+h3.box-ribbon {
+	display: inline-block;
+	padding: 12px 0;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	background: #4aaaa5;
+	color: #fff;
+	bottom: 13px;
+	font-size: 22px;
 }
 
 footer {
