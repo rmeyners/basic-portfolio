@@ -26,6 +26,7 @@ h1.hero {
 	font-size: 30px;
 	color: white;
 	font-weight: bold;
+	/*float: left;*/
 }
 
 h2.title {
@@ -80,14 +81,13 @@ h3.sidebar {
 
 nav {
 	float: right;
-	margin-left: 25px;
 }
 
 nav ul li{
 	display: inline-block;
 	padding: 15px;
-	border-right: 1px solid #cccccc;
 	line-height: 5px;
+	margin-top: 25px;
 }
 
 nav ul li a {
@@ -99,7 +99,12 @@ nav ul li a {
 nav ul li a:hover {
 	color: #ffffff;
 	background: #4aaaa5;
-} 
+}
+
+.middlenav {
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+}
 
 ul.buttons li.btn {
 	display: inline-block;
